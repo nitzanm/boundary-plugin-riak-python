@@ -114,5 +114,5 @@ if __name__ == '__main__':
     if len(sys.argv) > 1 and sys.argv[1] == '-v':
         logging.basicConfig(level=logging.INFO)
 
-    plugin = RiakPlugin('NEM_')
+    plugin = RiakPlugin('')
     plugin.main()
